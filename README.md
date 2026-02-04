@@ -80,3 +80,17 @@ Download and extract the chr21 data into the `raw_data/` directory before runnin
 * Raiyan Tarek Mahmoud Subedar
 * Abdulrahman Mohammed Amin Alahmed
 * Turky AbdulHakim Mohammed AlSulaiman
+
+---
+
+## Documentation
+## Documentation
+
+Detailed step-by-step documentation of the project workflow is available in the `docs/` folder:
+
+1. [Raw Data Download](docs/1-raw_data-download.md) – Download and organize the RNA-seq FASTQ files  
+2. [Reference Genome and Annotation Download](docs/2-reference-data-download.md) – Download chromosome 21 genome, GTF, and transcriptome  
+3. [Reference Statistics](docs/3-reference-stats.md) – Number of genes, transcripts, DNA base pairs, and transcript nucleotides  
+4. [Raw Sequencing QC with SeqKit](docs/4-seqkit-qc.md) – Summary of raw reads, GC content, Q30%, and observations
+
+
