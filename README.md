@@ -1,6 +1,4 @@
-# KAUST-Academy-Bioinformatics-Stage-3-Mini-Project
-
-# Chromosome-specific TDP-43 Knockout Analysis (chr21)
+# KAUST-Academy-Bioinformatics-Stage-3-Mini-Project: Chromosome-specific TDP-43 Knockout Analysis (chr21)
 
 ## Project Goal
 
@@ -84,7 +82,6 @@ Download and extract the chr21 data into the `raw_data/` directory before runnin
 ---
 
 ## Documentation
-## Documentation
 
 Detailed step-by-step documentation of the project workflow is available in the `docs/` folder:
 
@@ -92,6 +89,7 @@ Detailed step-by-step documentation of the project workflow is available in the 
 2. [Reference Genome and Annotation Download](docs/2-reference-data-download.md) – Download chromosome 21 genome, GTF, and transcriptome  
 3. [Reference Statistics](docs/3-reference-stats.md) – Number of genes, transcripts, DNA base pairs, and transcript nucleotides  
 4. [Raw Sequencing QC with SeqKit](docs/4-seqkit-qc.md) – Summary of raw reads, GC content, Q30%, and observations
-5. [Quality Control and Read Trimming](docs/5-qc-and-trimming.md) – FastQC, multiQC, and fastp trimming results  
+5. [Quality Control and Read Trimming](docs/5-qc-and-trimming.md) – FastQC, multiQC, and fastp trimming results
+6. [Transcript Quantification with Salmon and tximport](docs/6-salmon-quantification-and-tximport.md) – – Salmon quantification and gene-level counts with tximport
 
 
