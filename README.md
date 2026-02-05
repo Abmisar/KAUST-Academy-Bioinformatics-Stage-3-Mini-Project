@@ -92,5 +92,6 @@ Detailed step-by-step documentation of the project workflow is available in the 
 2. [Reference Genome and Annotation Download](docs/2-reference-data-download.md) – Download chromosome 21 genome, GTF, and transcriptome  
 3. [Reference Statistics](docs/3-reference-stats.md) – Number of genes, transcripts, DNA base pairs, and transcript nucleotides  
 4. [Raw Sequencing QC with SeqKit](docs/4-seqkit-qc.md) – Summary of raw reads, GC content, Q30%, and observations
+5. [Quality Control and Read Trimming](docs/5-qc-and-trimming.md) – FastQC, multiQC, and fastp trimming results  
 
 
