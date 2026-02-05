@@ -1,0 +1,306 @@
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Detecting adapter sequence for read2...
+CCTGCCAGTAGCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTACGCACGGC
+
+Read1 before filtering:
+total reads: 708774
+total bases: 53866824
+Q20 bases: 52203791(96.9127%)
+Q30 bases: 50468079(93.6905%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 708774
+total bases: 53866824
+Q20 bases: 50799477(94.3057%)
+Q30 bases: 48436494(89.919%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 674162
+total bases: 51227247
+Q20 bases: 49928573(97.4649%)
+Q30 bases: 48428952(94.5375%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 674162
+total bases: 51212869
+Q20 bases: 49197704(96.0651%)
+Q30 bases: 47159729(92.0857%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 1348324
+reads failed due to low quality: 50692
+reads failed due to too many N: 440
+reads failed due to too short: 18092
+reads with adapter trimmed: 13477
+bases trimmed due to adapters: 614170
+
+Duplication rate: 18.022%
+
+Insert size peak (evaluated by paired-end reads): 116
+
+JSON report: qc_reports/fastp/KO_1_SRR10045016.json
+HTML report: qc_reports/fastp/KO_1_SRR10045016.html
+
+fastp --in1 raw_data/KO_1_SRR10045016_1.fastq.gz --in2 raw_data/KO_1_SRR10045016_2.fastq.gz --out1 trimmed_data/KO_1_SRR10045016_1.trimmed.fastq.gz --out2 trimmed_data/KO_1_SRR10045016_2.trimmed.fastq.gz --qualified_quality_phred 20 --length_required 36 --detect_adapter_for_pe --overrepresentation_analysis --thread 4 --json qc_reports/fastp/KO_1_SRR10045016.json --html qc_reports/fastp/KO_1_SRR10045016.html 
+fastp v1.0.1, time used: 96 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Detecting adapter sequence for read2...
+CCTGCCAGTAGCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTACGCACGGC
+
+Read1 before filtering:
+total reads: 847301
+total bases: 64394876
+Q20 bases: 61752381(95.8964%)
+Q30 bases: 59160611(91.8716%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 847301
+total bases: 64394876
+Q20 bases: 60617422(94.1339%)
+Q30 bases: 57783635(89.7333%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 801335
+total bases: 60891696
+Q20 bases: 58818327(96.595%)
+Q30 bases: 56555639(92.8791%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 801335
+total bases: 60875953
+Q20 bases: 58431661(95.9848%)
+Q30 bases: 55996387(91.9844%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 1602670
+reads failed due to low quality: 66490
+reads failed due to too many N: 386
+reads failed due to too short: 25056
+reads with adapter trimmed: 17340
+bases trimmed due to adapters: 858929
+
+Duplication rate: 22.067%
+
+Insert size peak (evaluated by paired-end reads): 117
+
+JSON report: qc_reports/fastp/KO_2_SRR10045017.json
+HTML report: qc_reports/fastp/KO_2_SRR10045017.html
+
+fastp --in1 raw_data/KO_2_SRR10045017_1.fastq.gz --in2 raw_data/KO_2_SRR10045017_2.fastq.gz --out1 trimmed_data/KO_2_SRR10045017_1.trimmed.fastq.gz --out2 trimmed_data/KO_2_SRR10045017_2.trimmed.fastq.gz --qualified_quality_phred 20 --length_required 36 --detect_adapter_for_pe --overrepresentation_analysis --thread 4 --json qc_reports/fastp/KO_2_SRR10045017.json --html qc_reports/fastp/KO_2_SRR10045017.html 
+fastp v1.0.1, time used: 94 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Detecting adapter sequence for read2...
+CCTGCCAGTAGCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTACGCACGGC
+
+Read1 before filtering:
+total reads: 725979
+total bases: 55174404
+Q20 bases: 49353433(89.4499%)
+Q30 bases: 46005516(83.382%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 725979
+total bases: 55174404
+Q20 bases: 49885602(90.4144%)
+Q30 bases: 46784052(84.793%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 665017
+total bases: 50533066
+Q20 bases: 46088103(91.2039%)
+Q30 bases: 43168887(85.427%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 665017
+total bases: 50518238
+Q20 bases: 47148343(93.3293%)
+Q30 bases: 44553803(88.1935%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 1330034
+reads failed due to low quality: 107528
+reads failed due to too many N: 280
+reads failed due to too short: 14116
+reads with adapter trimmed: 11732
+bases trimmed due to adapters: 511476
+
+Duplication rate: 10.1868%
+
+Insert size peak (evaluated by paired-end reads): 121
+
+JSON report: qc_reports/fastp/KO_3_SRR10045018.json
+HTML report: qc_reports/fastp/KO_3_SRR10045018.html
+
+fastp --in1 raw_data/KO_3_SRR10045018_1.fastq.gz --in2 raw_data/KO_3_SRR10045018_2.fastq.gz --out1 trimmed_data/KO_3_SRR10045018_1.trimmed.fastq.gz --out2 trimmed_data/KO_3_SRR10045018_2.trimmed.fastq.gz --qualified_quality_phred 20 --length_required 36 --detect_adapter_for_pe --overrepresentation_analysis --thread 4 --json qc_reports/fastp/KO_3_SRR10045018.json --html qc_reports/fastp/KO_3_SRR10045018.html 
+fastp v1.0.1, time used: 88 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Detecting adapter sequence for read2...
+CCTGCCAGTAGCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTACGCACGGC
+
+Read1 before filtering:
+total reads: 780052
+total bases: 59283952
+Q20 bases: 57630713(97.2113%)
+Q30 bases: 55884820(94.2664%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 780052
+total bases: 59283952
+Q20 bases: 55717005(93.9833%)
+Q30 bases: 53026475(89.4449%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 739945
+total bases: 56227118
+Q20 bases: 54970310(97.7648%)
+Q30 bases: 53495276(95.1414%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 739945
+total bases: 56210888
+Q20 bases: 53905686(95.899%)
+Q30 bases: 51598921(91.7952%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 1479890
+reads failed due to low quality: 59842
+reads failed due to too many N: 530
+reads failed due to too short: 19842
+reads with adapter trimmed: 14622
+bases trimmed due to adapters: 676539
+
+Duplication rate: 18.7927%
+
+Insert size peak (evaluated by paired-end reads): 121
+
+JSON report: qc_reports/fastp/WT_1_SRR10045019.json
+HTML report: qc_reports/fastp/WT_1_SRR10045019.html
+
+fastp --in1 raw_data/WT_1_SRR10045019_1.fastq.gz --in2 raw_data/WT_1_SRR10045019_2.fastq.gz --out1 trimmed_data/WT_1_SRR10045019_1.trimmed.fastq.gz --out2 trimmed_data/WT_1_SRR10045019_2.trimmed.fastq.gz --qualified_quality_phred 20 --length_required 36 --detect_adapter_for_pe --overrepresentation_analysis --thread 4 --json qc_reports/fastp/WT_1_SRR10045019.json --html qc_reports/fastp/WT_1_SRR10045019.html 
+fastp v1.0.1, time used: 94 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Detecting adapter sequence for read2...
+CCTGCCAGTAGCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTACGCACGGC
+
+Read1 before filtering:
+total reads: 1085590
+total bases: 82504840
+Q20 bases: 79619390(96.5027%)
+Q30 bases: 76726112(92.9959%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 1085590
+total bases: 82504840
+Q20 bases: 77625723(94.0863%)
+Q30 bases: 73990414(89.6801%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 1024182
+total bases: 77826416
+Q20 bases: 75606498(97.1476%)
+Q30 bases: 73131472(93.9674%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 1024182
+total bases: 77807380
+Q20 bases: 74671243(95.9694%)
+Q30 bases: 71560327(91.9711%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 2048364
+reads failed due to low quality: 83984
+reads failed due to too many N: 484
+reads failed due to too short: 38348
+reads with adapter trimmed: 25024
+bases trimmed due to adapters: 1285689
+
+Duplication rate: 26.61%
+
+Insert size peak (evaluated by paired-end reads): 118
+
+JSON report: qc_reports/fastp/WT_2_SRR10045020.json
+HTML report: qc_reports/fastp/WT_2_SRR10045020.html
+
+fastp --in1 raw_data/WT_2_SRR10045020_1.fastq.gz --in2 raw_data/WT_2_SRR10045020_2.fastq.gz --out1 trimmed_data/WT_2_SRR10045020_1.trimmed.fastq.gz --out2 trimmed_data/WT_2_SRR10045020_2.trimmed.fastq.gz --qualified_quality_phred 20 --length_required 36 --detect_adapter_for_pe --overrepresentation_analysis --thread 4 --json qc_reports/fastp/WT_2_SRR10045020.json --html qc_reports/fastp/WT_2_SRR10045020.html 
+fastp v1.0.1, time used: 100 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Detecting adapter sequence for read2...
+TCCTGCCAGTAGCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTACGCACGG
+
+Read1 before filtering:
+total reads: 835263
+total bases: 63479988
+Q20 bases: 57296445(90.2591%)
+Q30 bases: 53693990(84.5841%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 835263
+total bases: 63479988
+Q20 bases: 57269801(90.2171%)
+Q30 bases: 53649933(84.5147%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 763427
+total bases: 58009831
+Q20 bases: 53293110(91.8691%)
+Q30 bases: 50183800(86.5091%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 763427
+total bases: 57998129
+Q20 bases: 54034813(93.1665%)
+Q30 bases: 51001680(87.9368%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 1526854
+reads failed due to low quality: 120138
+reads failed due to too many N: 324
+reads failed due to too short: 23210
+reads with adapter trimmed: 16449
+bases trimmed due to adapters: 735594
+
+Duplication rate: 14.2994%
+
+Insert size peak (evaluated by paired-end reads): 120
+
+JSON report: qc_reports/fastp/WT_3_SRR10045021.json
+HTML report: qc_reports/fastp/WT_3_SRR10045021.html
+
+fastp --in1 raw_data/WT_3_SRR10045021_1.fastq.gz --in2 raw_data/WT_3_SRR10045021_2.fastq.gz --out1 trimmed_data/WT_3_SRR10045021_1.trimmed.fastq.gz --out2 trimmed_data/WT_3_SRR10045021_2.trimmed.fastq.gz --qualified_quality_phred 20 --length_required 36 --detect_adapter_for_pe --overrepresentation_analysis --thread 4 --json qc_reports/fastp/WT_3_SRR10045021.json --html qc_reports/fastp/WT_3_SRR10045021.html 
+fastp v1.0.1, time used: 92 seconds
