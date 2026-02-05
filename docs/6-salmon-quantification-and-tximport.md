@@ -93,7 +93,9 @@ Mapping rates were extracted from Salmon logs:
 | WT_3   | 54.10            |
 
 **Observation:**
+
 Mapping rates of 47–61% are expected for Salmon quantification against a chromosome 21–restricted transcriptome, as the majority of RNA-seq reads originate from transcripts encoded on other chromosomes; similar rates across KO and WT samples indicate consistent library quality and no condition-specific mapping bias.
+
 ---
 
 ## 5. Create transcript-to-gene mapping (tx2gene)
