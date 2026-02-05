@@ -1,0 +1,13 @@
+{
+    "salmon_version": "1.10.3",
+    "index": "references/salmon_index",
+    "libType": "A",
+    "mates1": "trimmed_data/KO_1_SRR10045016_1.trimmed.fastq.gz",
+    "mates2": "trimmed_data/KO_1_SRR10045016_2.trimmed.fastq.gz",
+    "output": "salmon_quant/KO_1",
+    "threads": "4",
+    "validateMappings": [],
+    "gcBias": [],
+    "seqBias": [],
+    "auxDir": "aux_info"
+}
