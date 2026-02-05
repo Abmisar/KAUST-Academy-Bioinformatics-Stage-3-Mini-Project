@@ -53,6 +53,7 @@ Download and extract the chr21 data into the `raw_data/` directory before runnin
 │   ├── figures/        # Plots and visualizations
 │   └── tables/         # Final result tables
 ├── salmon_quant/       # Transcript-level quantification results from Salmon
+├── scripts/            # R script
 ├── subsampled_data/    # Subsampled FASTQ files for testing/debugging
 └── trimmed_data/       # Trimmed FASTQ files after quality control
 ```
