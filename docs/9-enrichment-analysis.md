@@ -108,17 +108,6 @@ kegg_down = run_enrichment(down_genes, "Downregulated genes (KEGG)", sources=['K
 
 ---
 
-## Interpretation
-
-* **Upregulated genes in KO:** Normally suppressed by TDP-43
-* **Downregulated genes in KO:** Depend on TDP-43 for proper expression or RNA stability
-
-This indicates that TDP-43 loss affects a small, specific set of chromosome 21 genes and pathways.
-
-Perfect — here’s **exactly what to add** to your **Doc 9 markdown**, clean and paste-ready, using the required format:
-
----
-
 ## GO Enrichment Plots
 
 ### GO Enrichment – All Differentially Expressed Genes 
@@ -178,6 +167,4 @@ KEGG Enrichment:
   All genes: 2 pathways
   Upregulated: 2 pathways
   Downregulated: 0 pathways
-
-Output files: results/enrichment/
 ```
