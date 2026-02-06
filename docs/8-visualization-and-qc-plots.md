@@ -93,3 +93,14 @@ Summary of differential expression analysis (using DESeq2):
 
 - Upregulated in KO: 5  
 - Downregulated in KO: 2
+
+---
+
+### Notes
+
+- 132 genes were tested.  
+- 52 genes are significantly different (padj < 0.05).  
+- Only 7 genes have strong changes (|LFC| > 1): 5 up in KO, 2 down.  
+- Very few genes change a lot (|LFC| > 2).  
+- Most changes are moderate, matching the PCA clustering results.
+
