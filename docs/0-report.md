@@ -105,3 +105,7 @@ Although this analysis focused on Chromosome 21, the results show three patterns
 1.  **Loss of Control:** . In this experiment, most affected genes became overactive (upregulated). This mirrors ALS pathology, where the loss of TDP-43 allows specific genes to run out of control.
 2.  **Structural Weakness:** The analysis found that genes responsible for building the cell's physical framework (collagen and basement membrane) were disrupted.
 3.  False Viral Alarm: The cells activated pathways usually used to fight viruses (e.g., HPV, Ebola), even though no virus was present. This "false alarm" is a common stress response in ALS/FTD, where internal genetic errors are mistaken by the cell for a viral attack.
+
+## Github Page: https://github.com/Raiyan-S/KAUST-Academy-Bioinformatics-Stage-3-Mini-Project/tree/main
+
+
