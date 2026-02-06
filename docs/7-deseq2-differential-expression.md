@@ -95,7 +95,7 @@ keep <- rowSums(counts(dds) >= 10) >= 3
 dds <- dds[keep, ]
 ```
 
-Genes after filtering: **134**
+Genes after filtering: **135**
 
 ---
 
@@ -127,9 +127,9 @@ sig_genes <- subset(res, padj < 0.05 & abs(log2FoldChange) > 1)
 
 Results:
 
-* Significant genes: **6**
+* Significant genes: **7**
 * Upregulated in KO: **5**
-* Downregulated in KO: **1**
+* Downregulated in KO: **2**
 
 ---
 
@@ -166,6 +166,7 @@ Content:
 | ENSG00000160183 | 653.23 | +1.26 | 2.28e-33 |
 | ENSG00000142156 | 167.95 | +1.76 | 9.29e-21 |
 | ENSG00000154736 | 39.07 | −3.28 | 1.26e-12 |
+| ENSG00000160233	| 45.20	| -1.36	| 5.01e−04 |
 | ENSG00000154654 | 70.25 | +1.17 | 2.17e-03 |
 | ENSG00000185437 | 57.06 | +1.32 | 3.16e-03 |
 | ENSG00000183486 | 12.47 | +2.42 | 8.57e-03 |
