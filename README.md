@@ -6,6 +6,7 @@ This group project analyzes the effect of **TDP-43 knockout** on gene expression
 
 This repository focuses on **chromosome 21 (chr21)**.
 
+-----> [Report](docs/0-report.md) <-----
 ---
 
 ## Project Overview
