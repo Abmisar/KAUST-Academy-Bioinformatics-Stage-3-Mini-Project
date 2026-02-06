@@ -92,5 +92,6 @@ Detailed step-by-step documentation of the project workflow is available in the 
 4. [Raw Sequencing QC with SeqKit](docs/4-seqkit-qc.md) – Summary of raw reads, GC content, Q30%, and observations
 5. [Quality Control and Read Trimming](docs/5-qc-and-trimming.md) – FastQC, multiQC, and fastp trimming results
 6. [Transcript Quantification with Salmon and tximport](docs/6-salmon-quantification-and-tximport.md) – Salmon quantification and gene-level counts with tximport
+7. [Differential Expression Analysis](docs/7-differential-expression.md) – Compare WT and KO samples to detect significantly up- and down-regulated chromosome 21 genes.
 
 
