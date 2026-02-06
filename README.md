@@ -29,6 +29,7 @@ This project investigates whether **chromosome 21** exhibits distinct or particu
 ## Dataset
 
 * **RNA-seq dataset:** GSE136366
+* **Reference genome:** Homo sapiens **GRCh38** (Ensembl release 110)
 * **Chromosome-specific data (chr21):**
   [https://zenodo.org/records/18481303/files/chr21_data.zip](https://zenodo.org/records/18481303/files/chr21_data.zip)
 
