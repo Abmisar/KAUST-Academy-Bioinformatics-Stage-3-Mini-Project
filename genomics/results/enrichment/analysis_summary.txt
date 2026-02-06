@@ -1,0 +1,26 @@
+
+============================================
+Enrichment Analysis Summary
+============================================
+
+Input:
+  Total significant genes: 6
+  Upregulated genes: 5
+  Downregulated genes: 1
+
+Significance thresholds:
+  padj < 0.05
+  |log2FoldChange| > 1
+
+GO Enrichment Results:
+  All genes: 3 significant terms
+  Upregulated: 3 significant terms
+  Downregulated: 28 significant terms
+
+KEGG Pathway Results:
+  All genes: 2 significant pathways
+  Upregulated: 2 significant pathways
+  Downregulated: 0 significant pathways
+
+Output files saved to: results/enrichment/
+============================================

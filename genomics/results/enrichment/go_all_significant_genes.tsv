@@ -1,0 +1,4 @@
+source	native	name	p_value	significant	term_size	query_size	intersection_size	intersections
+GO:CC	GO:0005589	collagen type VI trimer	0.021937346613943975	True	2	6	1	['ENSG00000142156']
+GO:CC	GO:0098647	collagen beaded filament	0.021937346613943975	True	2	6	1	['ENSG00000142156']
+GO:CC	GO:0140086	basement membrane/interstitial matrix interface	0.021937346613943975	True	3	6	1	['ENSG00000142156']
