@@ -72,3 +72,24 @@ Replicates should correlate highly with each other.
 Shows expression patterns of the most significant genes across samples.
 
 ![Top Genes Heatmap](https://github.com/Raiyan-S/KAUST-Academy-Bioinformatics-Stage-3-Mini-Project/raw/main/genomics/results/figures/top_genes_heatmap.png)
+
+---
+
+## Differential Expression Summary
+
+Summary of differential expression analysis (using DESeq2):
+
+- **Total genes tested:** 132
+
+**Genes at different significance thresholds:**
+
+- padj < 0.1: 64  
+- padj < 0.05: 52  
+- padj < 0.01: 41  
+- padj < 0.05 & |LFC| > 1: 7  
+- padj < 0.05 & |LFC| > 2: 2  
+
+**Up- vs Down-regulated genes (padj < 0.05 & |LFC| > 1):**
+
+- Upregulated in KO: 5  
+- Downregulated in KO: 2
