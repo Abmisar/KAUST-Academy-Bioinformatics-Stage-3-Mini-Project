@@ -100,7 +100,7 @@ The response of Chromosome 21 to TDP-43 knockout is characterized as highly spec
 Only 7 genes showed strong fold changes (|LFC| > 1) out of the 132 tested, and only 2 genes exceeded a 4-fold change (log2FoldChange > 2). 
 This suggests that while TDP-43 is essential, its loss does not cause a global deregulation of the entire chromosome.
 
-#### 5. Links to ALS/FTD Pathology
+### 5. Links to ALS/FTD Pathology
 Although this analysis focused on Chromosome 21, the results show three patterns often seen in ALS and FTD patients:
 1.  **Loss of Control:** . In this experiment, most affected genes became overactive (upregulated). This mirrors ALS pathology, where the loss of TDP-43 allows specific genes to run out of control.
 2.  **Structural Weakness:** The analysis found that genes responsible for building the cell's physical framework (collagen and basement membrane) were disrupted.
