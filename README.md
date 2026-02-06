@@ -75,8 +75,8 @@ Download and extract the chr21 data into the `raw_data/` directory before runnin
 
 ## Group Members (chr21)
 
-* Abdullah Waleed Abdullah Misar
 * Raiyan Tarek Mahmoud Subedar
+* Abdullah Waleed Abdullah Misar
 * Abdulrahman Mohammed Amin Alahmed
 * Turky AbdulHakim Mohammed AlSulaiman
 
